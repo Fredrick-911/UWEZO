@@ -41,7 +41,7 @@ export default function ChatbotWidget() {
         - The platform builds a "Reputation Intelligence Score" based on learning consistency, saving behavior, and engagement.
         
         Rules:
-        1. Keep answers incredibly simple, accessible, and empathetic. Avoid complex financial jargon. Use spacing and short paragraphs.
+        1. Keep answer incredibly simple, accessible, and empathetic. Avoid complex financial jargon. Use spacing and short paragraphs.
         2. ALWAYS reply entirely in ${LANGUAGES.find(l => l.code === language).name}. If the user speaks a specific dialect, match it naturally.
         3. Do not invent features that UWEZO does not have.
       `;
@@ -56,7 +56,7 @@ export default function ChatbotWidget() {
       });
 
       const greetings = {
-        en: 'Welcome to UWEZO! How can I help you learn about investing today?',
+        en: 'Welcome to UWEZO! How do you feel today How can I help you learn about investing today?',
         sw: 'Karibu UWEZO! Nikusaidie vipi kujifunza kuhusu uwekezaji leo?',
         sheng: 'Niaje! Karibu UWEZO. Unataka kujua nini kuhusu ku-invest leo?',
         luo: 'Misawa! Ibiro e UWEZO. Anyalo konyi nade puonjruok weche mag keno pesa kawuono?',
